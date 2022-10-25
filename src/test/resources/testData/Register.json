@@ -1,0 +1,17 @@
+{
+              "ExistingUser" : {
+              				"username" : "Gesandai@gmail.com",
+              				"firstname" : "Thariini",
+              				"lastname" :"Wijesinghe",
+              				"password" : "Gesandi1234@"	,
+              				"passwordConfirm": "Gesandi1234@"	
+              } ,   
+              
+              "NewUser" : {
+             				"firstname" : "Tharii",
+              				"lastname" :"Liyanage",
+              				"password" : "Tharini1234@"	,
+              				"passwordConfirm": "Tharini1234@"			           
+              } 
+
+}

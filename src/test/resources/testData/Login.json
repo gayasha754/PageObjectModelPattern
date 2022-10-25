@@ -1,0 +1,22 @@
+{
+              "invalidUsername_InvalidPassword" : {
+              				"username" : "Gesandaigmail.com",
+              				"password" : "Gesandi4@"		
+              } ,   
+              
+              "invalidUsername_ValidPassword" : {
+              				"username" : "abc",
+              				"password" : "Gesandi1234@"				           
+              } , 
+               
+              "validUsername_InvalidPassword" : {
+              				"username" : "Gesandai@gmail.com",
+              				"password" : "acbd123"				
+              } ,  
+              
+              "validUsername_ValidPassword" : {
+              				"username" : "Gesandai@gmail.com",
+              				"password" : "Gesandi1234@"				              
+              } 
+
+}
