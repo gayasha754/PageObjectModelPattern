@@ -1,29 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-25T16:09:57 IST" name="Default suite" finished-at="2022-10-25T16:10:26 IST" duration-ms="29147">
+  <suite started-at="2022-10-28T11:48:22 IST" name="Suite" finished-at="2022-10-28T11:49:07 IST" duration-ms="45076">
     <groups>
     </groups>
-    <test started-at="2022-10-25T16:09:57 IST" name="Default test" finished-at="2022-10-25T16:10:26 IST" duration-ms="29147">
-      <class name="TestCase.PopuarMakeCommentTestCase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@42a48628]" started-at="2022-10-25T16:09:57 IST" name="setUp" finished-at="2022-10-25T16:10:02 IST" duration-ms="4890" status="PASS">
+    <test started-at="2022-10-28T11:48:22 IST" name="Test" finished-at="2022-10-28T11:49:07 IST" duration-ms="45076">
+      <class name="TestCase.LoginTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:22 IST" name="setUp" finished-at="2022-10-28T11:48:26 IST" duration-ms="4552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="newUserRegisterTest()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@42a48628]" started-at="2022-10-25T16:10:02 IST" name="newUserRegisterTest" finished-at="2022-10-25T16:10:18 IST" duration-ms="15928" status="PASS">
+        <test-method is-config="true" signature="json()[pri:0, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:26 IST" name="json" finished-at="2022-10-28T11:48:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- json -->
+        <test-method signature="invalidUsernameValidPasswordLoginTest()[pri:1, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:26 IST" name="invalidUsernameValidPasswordLoginTest" finished-at="2022-10-28T11:48:27 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameValidPasswordLoginTest -->
+        <test-method signature="validUsernameInvalidPasswordLoginTest()[pri:2, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:27 IST" name="validUsernameInvalidPasswordLoginTest" finished-at="2022-10-28T11:48:28 IST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUsernameInvalidPasswordLoginTest -->
+        <test-method signature="invalidUsernameInvalidPasswordLoginTest()[pri:3, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:28 IST" name="invalidUsernameInvalidPasswordLoginTest" finished-at="2022-10-28T11:48:29 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameInvalidPasswordLoginTest -->
+        <test-method signature="ValidloginTest()[pri:4, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:29 IST" name="ValidloginTest" finished-at="2022-10-28T11:48:31 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidloginTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.LoginTestCase@4135c3b]" started-at="2022-10-28T11:48:31 IST" name="quitDriver" finished-at="2022-10-28T11:48:32 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.LoginTestCase -->
+      <class name="TestCase.RegisterTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.RegisterTestCase@692f203f]" started-at="2022-10-28T11:48:32 IST" name="setUp" finished-at="2022-10-28T11:48:35 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExistingInputFields()[pri:1, instance:TestCase.RegisterTestCase@692f203f]" started-at="2022-10-28T11:48:35 IST" name="testExistingInputFields" finished-at="2022-10-28T11:48:37 IST" duration-ms="1725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExistingInputFields -->
+        <test-method signature="newUserRegisterTest()[pri:2, instance:TestCase.RegisterTestCase@692f203f]" started-at="2022-10-28T11:48:37 IST" name="newUserRegisterTest" finished-at="2022-10-28T11:48:41 IST" duration-ms="4336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newUserRegisterTest -->
-        <test-method signature="testReComment()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@42a48628]" started-at="2022-10-25T16:10:18 IST" name="testReComment" finished-at="2022-10-25T16:10:26 IST" duration-ms="7933" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.RegisterTestCase@692f203f]" started-at="2022-10-28T11:48:41 IST" name="quitDriver" finished-at="2022-10-28T11:48:41 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- TestCase.RegisterTestCase -->
+      <class name="TestCase.PopuarMakeCommentTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@48f2bd5b]" started-at="2022-10-28T11:48:41 IST" name="setUp" finished-at="2022-10-28T11:48:44 IST" duration-ms="2854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newUserRegisterTest()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@48f2bd5b]" started-at="2022-10-28T11:48:44 IST" name="newUserRegisterTest" finished-at="2022-10-28T11:48:59 IST" duration-ms="14986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserRegisterTest -->
+        <test-method signature="testReComment()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@48f2bd5b]" started-at="2022-10-28T11:48:59 IST" name="testReComment" finished-at="2022-10-28T11:49:06 IST" duration-ms="7305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReComment -->
-        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@42a48628]" started-at="2022-10-25T16:10:26 IST" name="quitDriver" finished-at="2022-10-25T16:10:26 IST" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:TestCase.PopuarMakeCommentTestCase@48f2bd5b]" started-at="2022-10-28T11:49:06 IST" name="quitDriver" finished-at="2022-10-28T11:49:07 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- TestCase.PopuarMakeCommentTestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
