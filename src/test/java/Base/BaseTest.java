@@ -13,11 +13,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
+	//initializing the web driver
 	protected WebDriver driver;
 	
-	public static Properties prop = new Properties();
-	public static FileReader fr;
+	public static Properties prop = new Properties(); //creating an object from the properties file
+	public static FileReader fr; //creating an object from the file reader
 
+	
+	//setting up the driver before executing the test class
 	@BeforeClass
 	public void setUp() throws IOException {
 	
@@ -48,6 +51,8 @@ public class BaseTest {
 		}
 	}
 	
+	
+	//Quitting the driver after executing the test class
 	@AfterClass
 	public void quitDriver() {
 		driver.quit();

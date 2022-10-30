@@ -10,6 +10,7 @@ import Base.BasePage;
 
 public class HomePage extends BasePage{
 	
+	//Assigning the elements of Home Page into variables
 	private final By txtUsername = By.xpath("//input[@placeholder='Login']");
 	private final By txtPassword = By.xpath("//input[@name='password']");
 	private final By btnLogin =  By.xpath("//button[normalize-space()='Login']");
@@ -20,6 +21,7 @@ public class HomePage extends BasePage{
 	
 	private final By logo = By.xpath("//a[normalize-space()='Buggy Rating']");
 	
+	//overridden method of initializing the webDriver
 	public HomePage(WebDriver driver) {
 		super(driver);
 	}
@@ -29,18 +31,21 @@ public class HomePage extends BasePage{
 //		return this;
 //	}
 	
+	//returning the action of entering the username
 	public HomePage enterUsername(String username) {
 		driver.findElement(txtUsername).clear();
 		driver.findElement(txtUsername).sendKeys(username);
 		return this;
 	}
-		
+	
+	//returning the action of entering the password
 	public HomePage enterPassword(String password) {
 		driver.findElement(txtPassword).clear();
 		driver.findElement(txtPassword).sendKeys(password);
 		return this;
 	}
 	
+	//returning the action of clicking Login Btn
 	public HomePage clickLoginBtn() {
 		driver.findElement(btnLogin).sendKeys(Keys.RETURN);
 		return this;
@@ -72,20 +77,25 @@ public class HomePage extends BasePage{
         return alertMessage;	
 	}
 	
+	//returning the action of clicking Logout btn
 	public HomePage clickLogoutButton(){
 		driver.findElement(btnLogout).sendKeys(Keys.RETURN);
 		return this;
 	}
 	
+	//returning the action of clicking Ragister btn
 	public RegisterPage clickRegisterBtn() {
 		driver.findElement(btnRegister).sendKeys(Keys.RETURN);
 		return new RegisterPage(driver);
 	}
+	
+	//returning the action of clicking on popular make image
 	public HomePage clickPopularMake() {
 		driver.findElement(btnPopularMakeLink).sendKeys(Keys.RETURN);
 		return this;
 	}
 	
+	//returning the action of clicking Logo 
 	public HomePage clickNavBarlogo() {
 		driver.findElement(logo).sendKeys(Keys.RETURN);
 		return this;

@@ -7,8 +7,11 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 public class Jsondata {
+	
 	InputStream data;
 	JSONObject testData;
+	
+	//Method of enabling using of a json file to get test data
 	public JSONObject json(String dataFileName) throws Exception {
 		 
 		try { 

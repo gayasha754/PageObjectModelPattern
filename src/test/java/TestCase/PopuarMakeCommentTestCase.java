@@ -27,6 +27,8 @@ public class PopuarMakeCommentTestCase extends BaseTest{
 	JSONObject testData;
 	
 	Jsondata js = new Jsondata();
+	
+	//Checking whether a user can comment
 	@Test
 	public void newUserRegisterTest() throws Exception {
 		testData = js.json("testData/Register.json");
@@ -65,6 +67,7 @@ public class PopuarMakeCommentTestCase extends BaseTest{
 		homePage.clickLogoutButton();
 	}
 	
+	//Testing whether a user can comment again
 	@Test
 	public void testReComment() throws Exception{
 		testData = js.json("testData/login.json");
